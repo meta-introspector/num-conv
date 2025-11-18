@@ -3,7 +3,7 @@ name = "num-conv"
 version = "0.2.0"
 authors = ["Jacob Pratt <jacob@jhpratt.dev>"]
 edition = "2021"
-rust-version = "1.57.0"
+# rust-version = "1.57.0"
 repository = "https://github.com/jhpratt/num-conv"
 keywords = ["cast", "extend", "truncate", "convert", "integer"]
 categories = ["no-std", "no-std::no-alloc", "rust-patterns"]
@@ -29,3 +29,5 @@ unused = "warn"
 [lints.clippy]
 alloc-instead-of-core = "deny"
 std-instead-of-core = "deny"
+
+#[workspace]
